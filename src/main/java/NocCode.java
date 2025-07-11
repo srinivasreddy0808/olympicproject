@@ -1,3 +1,5 @@
+package main.java;
+
 public class NocCode {
     private String noc;
     private String region;

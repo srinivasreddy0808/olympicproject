@@ -525,7 +525,7 @@ year 1984    player Leslie Michele Burr-Howard (-Leneghan-)    medal won 1
 year 1984    player Eros Poli    medal won 1
 year 1984    player Mirjana urica    medal won 1
 year 1984    player Kristen Joy Thorsness    medal won 1
-year 1984    player Gerald Grant Main    medal won 1
+year 1984    player Gerald Grant main.java.Main    medal won 1
 year 1984    player George Thomas DiCarlo    medal won 1
 year 1984    player Anne Theresa Donovan    medal won 1
 year 1984    player Dean Anthony Woods    medal won 1

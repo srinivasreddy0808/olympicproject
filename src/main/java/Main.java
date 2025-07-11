@@ -1,10 +1,10 @@
-import javax.swing.*;
+package main.java;
+
 import java.io.*;
-import java.net.Inet4Address;
 import java.util.*;
 
 public class Main {
-    // Static final column indexes for Event data
+    // Static final column indexes for main.java.Event data
     private static final int ID = 0;
     private static final int NAME = 1;
     private static final int SEX = 2;
@@ -98,7 +98,7 @@ public class Main {
 
 
 
-    public static void  femaleAthleteWonMaximumNumberOfGoldAllOlympics(List<Event> events,List<NocCode> nocs) {
+    public static void  femaleAthleteWonMaximumNumberOfGoldAllOlympics(List<Event> events, List<NocCode> nocs) {
         Map<String ,Integer> femaleAthleteMax = new HashMap<>();
         for(Event event : events) {
             if(event.getMedal().equalsIgnoreCase("gold") && event.getSex().equalsIgnoreCase("f") ) {
@@ -113,7 +113,7 @@ public class Main {
     }
 
 
-    public static void displayGoldWinnerOfFootballOfEveryOlympic(List<Event> events,List<NocCode> nocs) {
+    public static void displayGoldWinnerOfFootballOfEveryOlympic(List<Event> events, List<NocCode> nocs) {
         Map<String , String>  footBallOlympicWinner = new HashMap<>();
         for(Event event: events) {
             if(event.getSport().equalsIgnoreCase("football") && event.getMedal().equalsIgnoreCase("gold")) {
@@ -128,7 +128,7 @@ public class Main {
     }
 
 
-    public  static  void eventWiseNumberOfGoldSilverBronzeMedalsInYear1980(List<Event> events ,List<NocCode> nocs) {
+    public  static  void eventWiseNumberOfGoldSilverBronzeMedalsInYear1980(List<Event> events , List<NocCode> nocs) {
         Map<String, ArrayList<Integer>> eventMedals = new HashMap<>();
         final int GOLD = 0, SILVER = 1, BRONZE = 2;
         for (Event event : events) {
@@ -175,7 +175,7 @@ public class Main {
 
 
 
-    public  static void displayYearWiseNumberOfGoldMedalsWonByEachPlayer(List<Event> events ,List<NocCode> nocs) {
+    public  static void displayYearWiseNumberOfGoldMedalsWonByEachPlayer(List<Event> events , List<NocCode> nocs) {
         Map<Integer ,Map <String ,Integer> > yearWiseGoldMedalWon = new HashMap<>();
 
         for(Event event : events) {
@@ -198,7 +198,7 @@ public class Main {
 
 
     }
-    public  static void displayYearWiseNumberOfGoldMedalsWonByEachPlayerIfOnlyWon(List<Event> events ,List<NocCode> nocs) {
+    public  static void displayYearWiseNumberOfGoldMedalsWonByEachPlayerIfOnlyWon(List<Event> events , List<NocCode> nocs) {
         Map<Integer, Map<String, Integer>> goldMedalsByYear = new TreeMap<>();
 
         for (Event event : events) {
