@@ -1,5 +1,4 @@
-package test.java;
-
+package testcases;
 import main.java.Event;
 import main.java.Main;
 import main.java.NocCode;
